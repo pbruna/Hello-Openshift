@@ -7,5 +7,9 @@ get "/" do
 end
 
 get "/fail" do
-    raise "Error"
+  raise "Error"
+end
+
+get "/date" do
+    Date.new    
 end
